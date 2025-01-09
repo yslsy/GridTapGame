@@ -1,7 +1,7 @@
 # GridTapGame
 
-1. [Summary 專案簡介](https://github.com/yslsy/TaipeiTrip/tree/develop#summary)
-2. [Demo 專案展示](https://github.com/yslsy/TaipeiTrip/tree/develop#demo)
+1. [Summary 專案簡介](https://github.com/yslsy/GridTapGame?tab=readme-ov-file#summary)
+2. [Demo 專案展示](https://github.com/yslsy/GridTapGame?tab=readme-ov-file#demo)
 
 ## Summary
 
