@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/stylesheets/gameRoom2.css" />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+
+  <body>
+    <div class="outDiv">
+      <div class="row">
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(0)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(1)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(2)"
+        />
+      </div>
+      <div class="row">
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(3)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(4)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(5)"
+        />
+      </div>
+      <div class="row">
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(6)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(7)"
+        />
+        <img
+          src="/images/dog2.png"
+          class="cell"
+          title="yellow"
+          onclick="getcount(8)"
+        />
+      </div>
+      <div class="rulediv">
+        <div>
+          <div class="rule" id="time">剩餘時間： 0s</div>
+          <button class="startBtn" id="startBtn">遊戲開始</button>
+          <div class="rule" id="score-container"></div>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/javascripts/gameRoom2.js"></script>
+  </body>
+</html>

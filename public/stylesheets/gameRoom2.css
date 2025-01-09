@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.outDiv {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.cell {
+  background-color: rgb(168, 253, 128);
+  width: 150px;
+  cursor: pointer;
+}
+
+.rulediv {
+  align-items: center;
+  justify-content: center;
+}
+
+.rule {
+  width: 150px;
+  font-size: 16px;
+  margin: 3px;
+}
+
+.startBtn {
+  width: 100px;
+  font-size: 16px;
+  margin: 3px;
+}

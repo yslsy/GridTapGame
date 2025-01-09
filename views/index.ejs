@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <title>My Gameroom</title>
+    <script
+      type="text/javascripts"
+      src="../public/javascripts/index.js"
+    ></script>
+  </head>
+  <body>
+    <div class="outDiv">
+      <div class="gameRuleTitle">遊戲說明</div>
+      <div class="gameRule">
+        點擊單人模式或雙人模式可進入遊戲房間！<br /><br />進入遊戲房間後，點擊遊戲開始，遊戲時間為60秒，當小狗背景變為藍色時即可點擊得一分，單人模式下，當誤點非藍色背景的小狗則會扣五分，而小狗背景會變為紅色。<br /><br />點擊雙人模式的情況，進入遊戲房間後可複製網址給你的朋友一起遊玩，限時60秒，當小狗背景變色時點擊即可搶得一分，看誰能得到比較高的分數！
+      </div>
+      <hr />
+      <input
+        class="playName"
+        type="text"
+        placeholder="請輸入玩家姓名(必填)"
+        required
+      />
+      <button class="modeBtn" onclick="newGameRoom()">單人模式</button>
+      <button class="modeBtn" onclick="newGameRoomTwo()">雙人模式</button>
+    </div>
+
+    <script type="text/javascript" src="/javascripts/index.js"></script>
+  </body>
+</html>
